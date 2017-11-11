@@ -13,6 +13,6 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "bundles/command-t"]
-	path = bundles/command-t
+[submodule "bundle/command-t"]
+	path = bundle/command-t
 	url = https://github.com/wincent/command-t/
