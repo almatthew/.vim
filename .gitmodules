@@ -19,3 +19,6 @@
 [submodule "bundle/vim-autotag"]
 	path = bundle/vim-autotag
 	url = git://github.com/craigemery/vim-autotag.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
