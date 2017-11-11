@@ -1,9 +1,8 @@
 execute pathogen#infect()
 
-filetype on
 syntax on
-set number
 filetype plugin indent on
+set number
 set nowrap
 set tabstop=2
 set shiftwidth=2
@@ -14,10 +13,17 @@ set hlsearch
 set showmatch
 
 colorscheme Tomorrow-Night
-set guifont=Menlo\ Regular:h18
+set guifont=Menlo\ Regular:h14
 
 set hidden
 set history=100
 
 "Remove whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
+
+"NERDTree open
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+
+"For gitgutter updates
+set updatetime=250
