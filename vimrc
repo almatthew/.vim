@@ -13,7 +13,7 @@ set hlsearch
 set showmatch
 
 colorscheme Tomorrow-Night
-set guifont=Menlo\ Regular:h14
+set guifont=Menlo\ Regular:h13
 
 set hidden
 set history=100
