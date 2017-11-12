@@ -29,3 +29,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 "For gitgutter updates
 set updatetime=250
 set signcolumn=yes
+
+"youcompleteme tags
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
+
+"Custom mappings
+map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **/*{.h,.cpp}" <Bar> cw<CR>
